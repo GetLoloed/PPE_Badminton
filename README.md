@@ -27,5 +27,5 @@ L'utilisateur peut :
 * via la page d'ajout -> ajouter un adhérent à la base de données
 * via la page de recherche -> rechercher un adhérent 
 
-# Développer avec :
+# Développé avec :
 PHP Storm
