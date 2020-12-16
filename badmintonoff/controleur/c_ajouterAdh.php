@@ -14,7 +14,7 @@ if (isset($_POST['envoyer'])) {
     $add = $common->addAdh($connexion, $nomAdh, $prenomAdh, $adresseAdh, $villeAdh, $cpAdh, $niveauAdh, $typeAdh);
     $result = $connexion->query($add);
     if ($add) {
-        echo '<script>window.location.href="../vues/v_ajouterAdh.php";</script>';
+        echo '<script>window.location.href="../ajouterAdh.php";</script>';
     }
 
 }

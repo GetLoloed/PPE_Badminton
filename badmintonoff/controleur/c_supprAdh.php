@@ -7,7 +7,7 @@ if (isset($_GET['matriculeAdh'])) {
     $fonctions = new Fonctions();
     $delete = $fonctions->deleteAdh($connexion, $matriculeAdh);
     if ($delete) {
-        echo '<script>window.location.href="../vues/v_gestionAdh.php";</script>';
+        echo '<script>window.location.href="../gestionAdh.php";</script>';
     }
 }
 ?>

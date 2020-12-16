@@ -18,7 +18,7 @@ if (isset($_POST['modifier']))
     $result = $connexion->query($modif);
     if ($modif)
     {
-        echo '<script>window.location.href="../vues/v_gestionAdh.php";</script>';
+        echo '<script>window.location.href="../gestionAdh.php";</script>';
     }
 }
 ?>
