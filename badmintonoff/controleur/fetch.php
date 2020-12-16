@@ -21,8 +21,8 @@ if (isset($_POST["query"])) {
 $result = mysqli_query($connect, $query);
 if (mysqli_num_rows($result) > 0) {
     $output .= '
-<div class="container text-center">
-   <table class="table table bordered table-responsive">
+<div class="container">
+   <table class="table">
    <thead class="thead-dark">
     <tr>
      <th>Nom</th>
